@@ -1,0 +1,69 @@
+body {
+  background-color: #100d18;
+}
+
+.style-button:hover {
+  color: turquoise;
+}
+
+.header {
+  color: white;
+}
+
+.input-box {
+  background-color: #25273C;
+}
+
+.input-field {
+  color: ivory;
+}
+
+.todo-list {
+  margin-top: 1rem;
+}
+
+.item {
+  border-bottom: solid #5a5a5a 0.1px;
+}
+
+.navbar {
+  border: none;
+}
+
+.icon-box {
+  width: 100%;
+  text-justify: right;
+  fill: #4a4258;
+}
+
+.cross-button:hover .icon-box {
+  fill: #8f17f1;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.nav-container {
+  color: white;
+}
+
+.nav-container p {
+  color: #8b878b;
+}
+
+.choice-button {
+  color: #8b878b;
+}
+
+.choice-button:hover {
+  color: whitesmoke;
+}
+
+.choice-button-on {
+  color: #2389ff;
+}
+/*# sourceMappingURL=darkstyles.css.map */

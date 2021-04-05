@@ -1,0 +1,75 @@
+body{  
+    background-color:  #FAFAFA;  
+ }
+   
+ .header{
+     color: white;
+ }
+ 
+ .input-box{
+     background-color: white;
+ }
+ 
+ .input-field{
+     color: rgb(156, 156, 156);  
+ }
+  
+ input:focus,
+ select:focus,
+ textarea:focus,
+ button:focus {
+     outline: none;
+ }
+ 
+ .icon-box{
+    fill: rgb(170, 170, 170);
+}
+
+.cross-button:hover .icon-box{
+    fill: rgb(31, 173, 255);
+}
+ 
+ .nav-container{
+     color: #55555F;
+     p{ 
+         color: rgb(139, 135, 139);  
+     }
+ 
+ }
+ 
+ .choice-button{
+
+     color: rgb(158, 158, 158);
+ }
+ 
+ .choice-button:hover{
+     color: rgb(87, 87, 87);
+ }
+
+ .choice-button-on{
+    color:rgb(35, 137, 255);
+}
+
+ .item{
+    border-bottom: solid rgb(204, 204, 204) 0.1px;
+}
+ 
+.navbar{
+    border: none;
+}
+ 
+
+ 
+ 
+ 
+ 
+ 
+   
+   
+   
+   
+   
+   
+   
+   
+ 
