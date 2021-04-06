@@ -74,7 +74,7 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   color: white;
-  letter-spacing: 20px;
+  letter-spacing: 28px;
 }
 
 .input-box {
@@ -113,7 +113,6 @@ body {
   color: ivory;
   border: none;
   font-size: 20px;
-  z-index: 1;
   width: 80%;
 }
 
@@ -281,7 +280,7 @@ button:focus {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  margin: 6vh auto 2vh;
+  margin: 6vh auto 4vh;
 }
 
 .attribution {
@@ -295,6 +294,4 @@ button:focus {
   left: 0px;
   z-index: -1;
 }
-
-/* checkbox */
 /*# sourceMappingURL=styles.css.map */

@@ -30,7 +30,7 @@ function Input(props){
             disableRipple={true}
             disabled={true}
             checked={false}
-            size="medium"
+            size="big"
             icon={<CircleUnchecked />}
             checkedIcon={<CircleCheckedFilled />}
        />
