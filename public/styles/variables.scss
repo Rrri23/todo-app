@@ -1,0 +1,15 @@
+
+//predefined Break-ponts
+$mediaMaxWidth: 1260px;
+$mediaBp1Width: 960px;
+$mediaMinWidth: 480px;
+
+//colors
+$yellow: rgb(255, 166, 1);
+
+:export {
+    mediaMaxWidth: $mediaMaxWidth;
+    mediaBp1Width: $mediaBp1Width;
+    mediaMinWidth: $mediaMinWidth;
+    col_yellow: $yellow;
+}

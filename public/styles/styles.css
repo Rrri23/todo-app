@@ -1,3 +1,10 @@
+:export {
+  mediaMaxWidth: 1260px;
+  mediaBp1Width: 960px;
+  mediaMinWidth: 480px;
+  col_yellow: #ffa601;
+}
+
 body {
   margin: -2rem 0 0;
   background-color: #100d18;
@@ -293,5 +300,13 @@ button:focus {
   right: 0px;
   left: 0px;
   z-index: -1;
+}
+
+@media (max-width: 1260px) {
+  .new-task,
+  .input-box,
+  .upper-section {
+    width: 60%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
