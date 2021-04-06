@@ -21,7 +21,7 @@ function Item(props){
                 style={{
                     color: "#73BDFF",         
                     }}
-                    size="small"
+                    size="medium"
                     checked={props.checked}
                     onClick={handleChange}
                     id={props.idCheckbox}

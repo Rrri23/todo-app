@@ -30,11 +30,11 @@ function Input(props){
             disableRipple={true}
             disabled={true}
             checked={false}
-            size="small"
+            size="medium"
             icon={<CircleUnchecked />}
             checkedIcon={<CircleCheckedFilled />}
        />
-        <input type="text" id="input" className="input-field" value={item} onChange={handleChange} ></input>
+        <input type="text" id="input" className="input-field" size="100" value={item} onChange={handleChange} ></input>
         </form>
         </div>
 

@@ -17,18 +17,20 @@ body {
           justify-content: center;
 }
 
+.App {
+  height: auto;
+}
+
 .background-image {
   z-index: -1;
   position: relative;
   height: 40vh;
   width: 100%;
-}
-
-.background-image img {
-  height: 45vh;
-  width: 100%;
-  -o-object-fit: none;
-     object-fit: none;
+  margin: 0;
+  background-image: url("../images/bg-desktop-dark.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .List {
@@ -52,10 +54,10 @@ body {
 }
 
 .new-task {
-  width: 40%;
+  width: 30%;
   position: relative;
   top: -270px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .header {
@@ -63,7 +65,7 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   color: white;
-  letter-spacing: 10px;
+  letter-spacing: 20px;
 }
 
 .input-box {
@@ -71,7 +73,7 @@ body {
   top: -10vh;
   margin: auto;
   border: none;
-  width: 40%;
+  width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,12 +81,13 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  border-radius: 2px;
+  border-radius: 5px;
   background-color: #25273C;
   cursor: context-menu;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 10px 10px;
 }
 
 .item {
@@ -100,8 +103,9 @@ body {
   background-color: inherit;
   color: ivory;
   border: none;
-  font-size: 18px;
+  font-size: 20px;
   z-index: 1;
+  width: 80%;
 }
 
 .todo-list .input-field {
@@ -125,11 +129,11 @@ body {
 }
 
 .todo-list :first-child {
-  border-radius: 2px 2px 0 0;
+  border-radius: 5px 5px 0 0;
 }
 
 .todo-list :only-child {
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .todo-list .navbar {
@@ -146,7 +150,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-radius: 0 0 2px 2px;
+  border-radius: 0 0 5px 5px;
 }
 
 .cross-button {
@@ -210,7 +214,7 @@ button:focus {
   padding: 0;
   margin: 0 2px;
   color: #8b878b;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .choice-button {
@@ -220,7 +224,7 @@ button:focus {
   border-style: none;
   padding: 0;
   height: 2rem;
-  font-size: 12px;
+  font-size: 18px;
   color: #8b878b;
   cursor: pointer;
 }
@@ -263,16 +267,18 @@ button:focus {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 auto;
-  width: 40%;
+  width: 31%;
   height: 90px;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  margin: 10vh auto 2vh;
 }
 
 .attribution {
   color: #868686;
   font-family: 'Josefin Sans', sans-serif;
+  margin: 5% auto;
 }
 
 /* checkbox */

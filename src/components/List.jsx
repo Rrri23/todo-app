@@ -168,6 +168,7 @@ function complFunc(){
                } 
             })
             }
+            {listItems.length > 0 ?
             <Navbar 
             leftItems={listItems.filter(e => e.status === false).length}
             allTasksFunc={allFunc}
@@ -175,6 +176,7 @@ function complFunc(){
             completedTasksFunc={complFunc}
             deleteDone={clearDoneFunc}           
              />
+             : null }
         </div>
     </div>
   );

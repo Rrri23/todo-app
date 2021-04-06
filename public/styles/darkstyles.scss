@@ -10,6 +10,18 @@ body {
     color: white;
 }
 
+.background-image{
+    z-index: -1;
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    margin: 0;
+    background-image: url("../images/bg-desktop-dark.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .input-box {
     background-color: #25273C;
 }

@@ -11,16 +11,20 @@ body{
     justify-content: center;
 }
 
+.App{
+    height: auto;
+}
+
 .background-image{
     z-index: -1;
     position: relative;
     height: 40vh;
     width: 100%;
-    img{
-        height: 45vh;
-        width: 100%;
-        object-fit: none;
-    }
+    margin: 0;
+    background-image: url("../images/bg-desktop-dark.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .List{
@@ -44,10 +48,10 @@ body{
     
 }
 .new-task{
-    width: 40%;
+    width: 30%;
     position: relative;
     top: -270px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .header{
@@ -55,7 +59,7 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     color: white;
-    letter-spacing: 10px;
+    letter-spacing: 20px;
 }
 
 .input-box{
@@ -64,13 +68,14 @@ body{
     top: -10vh;
     margin: auto;
     border: none;
-    width: 40%;
+    width: 30%;
     display: flex;
     flex-direction: row;
-    border-radius: 2px;
+    border-radius: 5px;
     background-color:#25273C;
     cursor: context-menu;
     justify-content: space-between;
+    padding: 10px 10px;
 }
 
 .item{
@@ -87,8 +92,9 @@ body{
     background-color: inherit;
     color: ivory;
     border: none;
-    font-size: 18px;
+    font-size: 20px;
     z-index: 1;
+    width: 80%;
 }
 
 .todo-list .input-field{
@@ -108,17 +114,17 @@ body{
         border-radius: 0;
     };
     :first-child{
-        border-radius: 2px 2px 0 0;
+        border-radius: 5px 5px 0 0;
     };
     :only-child{
-        border-radius: 2px;
+        border-radius: 5px;
     };
     .navbar{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        border-radius: 0 0 2px 2px;    
+        border-radius: 0 0 5px 5px;    
     }
 }
 
@@ -165,7 +171,7 @@ button:focus {
         padding:0;
         margin: 0 2px;
         color: rgb(139, 135, 139);
-        font-size: 12px;
+        font-size: 18px;
     }
 
 }
@@ -177,7 +183,7 @@ button:focus {
     border-style: none;
     padding: 0;
     height: 2rem;
-    font-size: 12px;
+    font-size: 18px;
     color: rgb(139, 135, 139);
     cursor: pointer;
 }
@@ -205,16 +211,18 @@ button:focus {
     flex-direction: row;
     justify-content:space-between;
     margin: 0 auto;
-    width: 40%;
+    width: 31%;
     // position: relative;
     // top: -10vh;
     height: 90px;
     align-items: baseline;
+    margin: 10vh auto 2vh;
 }
 
 .attribution{
     color: rgb(134, 134, 134);
     font-family: 'Josefin Sans', sans-serif;
+    margin: 5% auto;
 
 }
 
