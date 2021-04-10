@@ -2,8 +2,12 @@ import React, {useState} from "react";
 import Input from "./Input";
 import Item from "./Item";
 import Navbar from "./Navbar";
+import Navbar_mobile from './Navbar';
 import Title from './Title';
+import styles from '../styles/variables.scss';
 
+var w = window.innerWidth;
+var h = window.innerHeight;
 
 function List(props) {
    const [listItems, setListItems] = useState([]);
@@ -169,7 +173,7 @@ function complFunc(){
             })
             }
             {listItems.length > 0 ?
-            <Navbar 
+            <Navbar_mobile 
             leftItems={listItems.filter(e => e.status === false).length}
             allTasksFunc={allFunc}
             activeTasksFunc={activeFunc}

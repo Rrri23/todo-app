@@ -1,5 +1,6 @@
+@import "../../public/styles/variables.scss";
+// predefined Break-ponts
 
-//predefined Break-ponts
 $mediaMaxWidth: 1260px;
 $mediaBp1Width: 960px;
 $mediaMinWidth: 480px;
@@ -13,8 +14,3 @@ $yellow: rgb(255, 166, 1);
     mediaMinWidth: $mediaMinWidth;
     col_yellow: $yellow;
 }
-
-$mobileWidth: 80%;
-$tabletWidth: 60%;
-$desktopWidth: 50%;
-$bigDesktopWidth: 30%;

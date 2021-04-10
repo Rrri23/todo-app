@@ -78,4 +78,14 @@ button:focus {
 .choice-button-on {
   color: #2389ff;
 }
+
+.mobile-nav {
+  background-color: #25273C;
+  color: #8b878b;
+}
+
+.mobile-status {
+  background-color: #25273C;
+  color: #8b878b;
+}
 /*# sourceMappingURL=darkstyles.css.map */

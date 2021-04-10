@@ -34,7 +34,7 @@ function Input(props){
             icon={<CircleUnchecked />}
             checkedIcon={<CircleCheckedFilled />}
        />
-        <input type="text" id="input" className="input-field" size="100" value={item} onChange={handleChange} ></input>
+        <input type="text" id="input" className="input-field" size="100" value={item} onChange={handleChange} placeholder="new todo..."></input>
         </form>
         </div>
 

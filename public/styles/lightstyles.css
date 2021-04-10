@@ -68,4 +68,14 @@ button:focus {
 .navbar {
   border: none;
 }
+
+.mobile-nav {
+  background-color: white;
+  color: #8b878b;
+}
+
+.mobile-status {
+  background-color: white;
+  color: #9c9c9c;
+}
 /*# sourceMappingURL=lightstyles.css.map */

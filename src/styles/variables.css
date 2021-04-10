@@ -4,4 +4,11 @@
   mediaMinWidth: 480px;
   col_yellow: #ffa601;
 }
+
+:export {
+  mediaMaxWidth: 1260px;
+  mediaBp1Width: 960px;
+  mediaMinWidth: 480px;
+  col_yellow: #ffa601;
+}
 /*# sourceMappingURL=variables.css.map */
